@@ -1,0 +1,94 @@
+#video_background {
+
+    position: absolute;
+  
+    bottom: 0px;
+  
+    right: 0px;
+  
+    min-width: 100%;
+  
+    min-height: 100%;
+  
+    width: 900px;
+    height: auto;
+  
+    z-index: -1000; 
+  
+    overflow: hidden;
+  }
+        
+  .box1{
+        color: rgb(187, 77, 197);
+        border: solid 2px;
+        width:  400px;
+        height: 35px;
+        font-family:'Courier New', Courier, monospace;
+        display: block;
+  
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        border-radius: 40px;
+  
+        overflow: hidden;
+        font-size: 20px;
+        text-align: center;
+  
+        padding-top: 10px;  
+       font-weight: bolder;
+      
+        
+      }
+  .box1:hover{
+      /* background-color: rgb(216, 183, 214); */
+      transition: width 2s, height 2s, transform 1s;
+      width: 600px;
+      height: 300px;
+      display: block;
+      border: solid 3px;
+    font-weight: bold;
+    }
+    
+   audio{
+     width: 300px;
+     height: 100px;
+     bottom: 100px;
+  
+   }
+  .top-nav {
+    overflow: hidden;       /* overflow: hidden khi chieu cao của box khong du chua text thi phan bị dư ra sẽ bị dấu đi */         
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold; 
+  }
+  /* Style the top-nav links */
+   /*Thành phần hiển thị như một khối, khi sử dụng giá trị block thành phần 
+   sẽ đứng một hàng độc lập so với thành phần trước và sau nó.*/
+    .top-nav a {
+      float: left;
+      display:block;                                     
+      color: #0e080b;
+      padding: 12px 15px;
+      text-decoration: none;     /* text- decoration: none: dinh dang van ban mac dinh */
+  }
+
+  /* Change color on hover */
+    .top-nav a:hover {
+    background-color: rgb(231, 143, 220);
+    color: black;
+  }
+
+  .div-audio{
+    position: absolute;
+    top: 85%;
+  }
+ .avatar img{
+     padding-top: 10px;
+     width: 130px;
+     height: 140px;
+     opacity: 90%;
+   
+ }
+
+

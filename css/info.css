@@ -1,0 +1,28 @@
+
+.box2{
+    width: 140px;
+    height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(213, 89, 224);
+    /* margin-left: 45%; */
+    /* margin-top: 20px; */
+    border-radius: 20px;  
+    border: solid 2px;
+    overflow: hidden;
+    padding-left: 40px;
+    /* padding-top:6px; */
+    border-color: rgb(141, 40, 150);
+    margin-left: auto;
+    margin-right: auto;   
+    padding-top: 12px;
+    margin-top: 25px;
+  }  
+  .box2:hover{
+    background-color:pink; 
+    width: 500px;
+    color: rgba(10, 1, 10, 0.651);
+    border-color: 	rgb(150, 99, 155);
+    background-color: rgba(198, 133, 255, 0.6);
+    transition: 0.3s;
+ 
+  }
